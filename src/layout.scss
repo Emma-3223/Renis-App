@@ -1,0 +1,54 @@
+
+
+@import './responsive.scss';
+
+
+.layout{
+    // background-color: rebeccapurple;
+    height: 100vh;
+    max-width: 1366px;
+    margin-left: auto;   //Centering layout 
+    margin-right: auto;    //centering the layout
+    padding-left: 20px; 
+    padding-right: 20px;
+// Order of the sizes to be maintained : lg:md:sm
+    @include lg {
+        // background-color: coral;
+        max-width: 1200px;
+    }
+
+    @include md {
+        // background-color: cornflowerblue;
+        max-width: 900px;
+    }
+
+    @include sm {
+        // background-color: red;
+        max-width: 600px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
