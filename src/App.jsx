@@ -1,11 +1,17 @@
 
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/navbar/Navbar';
+import HomePage from './components/routes/HomePage'
 import './layout.scss'
 
 function App() {
   return (
     <div className="layout">
-      <Navbar/>
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="content">
+        <HomePage/>
+      </div>
     </div>
   )
 }
