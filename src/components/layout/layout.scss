@@ -1,7 +1,6 @@
 
-
-@import './responsive.scss';
-
+// @import '../../responsive.scss';
+@import '../../responsive.scss';
 
 .layout{
     // background-color: rebeccapurple;
@@ -13,27 +12,30 @@
     padding-right: 20px;
     display: flex;
     flex-direction: column;
+   
+   
 // Order of the sizes to be maintained : lg:md:sm
     @include lg {
         // background-color: coral;
-        max-width: 1200px;
+        max-width: 1280px;
     }
 
     @include md {
         // background-color: cornflowerblue;
-        max-width: 900px;
+        max-width: 768px;
     }
 
     @include sm {
         // background-color: red;
-        max-width: 600px;
+        max-width: 640px;
     }
 
 
     // SCSS for the home page
     .content{
         // background-color: rebeccapurple;
-        flex: 1;
+        // flex: 1;
+        height: calc(100vh - 100px);
     }
 }
 

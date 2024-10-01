@@ -3,3 +3,22 @@
 Empty project clone
 Sass used for Css
 Added break points for screens 
+React route dom will allow us swith between pages on the client side 
+Ended in 1hr 25 mins
+
+
+
+
+deep and light
+ background-color: #FECE51
+background-color: #FFF6DC;
+
+
+
+
+
+
+
+
+
+
